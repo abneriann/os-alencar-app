@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "Os Alencar",
+    "slug": "os-alencar",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "os-alencar",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#2b0f18",
+      "image": "./assets/splash.png"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#2b0f18"
+      }
+    },
+    "web": {
+      "bundler": "metro"
+    },
+    "plugins": [
+      "expo-font"
+    ]
+  }
+}
